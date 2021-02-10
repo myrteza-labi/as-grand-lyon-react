@@ -1,11 +1,11 @@
 import React from 'react'
 import './Button.css'; 
 
-function Button(){
+function Button(props){
     return (
-        <div className='Button'>
-
-        </div>
+        <button className={'button ' + props.className}>
+            {props.children}
+        </button>
 
     )
 }

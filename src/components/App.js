@@ -1,6 +1,12 @@
 import React from 'react'; 
+import './App.css'; 
+
+// COMPONENTS
 import Sidebar from './Sidebar';
+import Header from './Header'; 
 import SidebarTag from './SidebarTag'; 
+
+// IMAGES
 import homeTag from '../images/home.png'; 
 import userTag from '../images/user.png'; 
 import groupTag from '../images/group.png'; 
@@ -10,6 +16,7 @@ import likeTag from '../images/like.png';
 import invoiceTag from '../images/invoice.png'; 
 import statsTag from '../images/stats.png'; 
 import chatTag from '../images/chat.png'; 
+
 
 function App(){
     return (
@@ -24,8 +31,8 @@ function App(){
                 <SidebarTag src={invoiceTag}/>
                 <SidebarTag src={statsTag}/>
                 <SidebarTag src={chatTag}/>
-                
             </Sidebar>
+            <Header/>
         </div>
     )
 }

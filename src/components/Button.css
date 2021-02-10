@@ -1,0 +1,35 @@
+.button {
+    width: 150px; 
+    height: 30px;
+    background-color: #fff; 
+    border: 1px solid #A26BB2; 
+    border-radius: 3px; 
+    margin : 1px; 
+}
+
+.button:hover{
+    background-color:#A26BB2; 
+}
+.button:hover p{
+    color:#fff; 
+}
+
+
+
+.button p {
+    margin: 0; 
+    padding: 0; 
+    font-family: sans-serif;
+    font-size: 12px; 
+}
+
+.soloButton{
+    width: 62px; 
+    height: 62px; 
+}
+
+.button p {
+    font-family: sans-serif;
+    font-size: 12px; 
+    color: #555; 
+}

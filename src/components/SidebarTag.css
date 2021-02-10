@@ -1,7 +1,7 @@
 .SidebarTag {
     width: 20px; 
     height: 20px; 
-    padding:4px; 
+    padding: 10px 4px 10px 4px; 
     margin: 4px; 
 }
 
@@ -9,6 +9,6 @@
     background-color: #561E67; 
     width: 20px;
     height: 20px;
-    padding : 20px 10px 20px 10px; 
+    padding : 30px 10px 30px 10px; 
     margin:0; 
 }

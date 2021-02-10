@@ -1,0 +1,15 @@
+.HeaderTags {
+    margin: 10px; 
+    display: flex; 
+    flex-direction: row;
+}
+
+.headerTags2Container {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.imageButton {
+    width: 40%; 
+    height: 40%; 
+}
